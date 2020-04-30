@@ -1,46 +1,9 @@
-/***************************************************
-  This is a library for the Adafruit 1.8" SPI display.
-  This library works with the Adafruit 1.8" TFT Breakout w/SD card
-  ----> http://www.adafruit.com/products/358
-  as well as Adafruit raw 1.8" TFT displayun
-  ----> http://www.adafruit.com/products/618
-
-  Check out the links above for our tutorials and wiring diagrams
-  These displays use SPI to communicate, 4 or 5 pins are required to
-  interface (RST is optional)
-  Adafruit invests time and resources providing this open source code,
-  please support Adafruit and open-source hardware by purchasing
-  products from Adafruit!
-
-  Written by Limor Fried/Ladyada for Adafruit Industries.
-  MIT license, all text above must be included in any redistribution
- ****************************************************/
 
 // ILI9341.c
 // Runs on LM4F120/TM4C123
 // Low level drivers for the ILI9341 160x128 LCD based off of
 // the file described above.
 //    16-bit color, 128 wide by 160 high LCD
-// Daniel Valvano
-// March 30, 2015
-// Augmented 7/17/2014 to have a simple graphics facility
-// Tested with LaunchPadDLL.dll simulator 9/2/2014
-
-/* This example accompanies the book
-   "Embedded Systems: Real Time Interfacing to ARM Cortex M Microcontrollers",
-   ISBN: 978-1463590154, Jonathan Valvano, copyright (c) 2015
-
- Copyright 2015 by Jonathan W. Valvano, valvano@mail.utexas.edu
-    You may use, edit, run or distribute this file
-    as long as the above copyright notice remains
- THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
- OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
- MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.
- VALVANO SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL,
- OR CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
- For more information about my classes, my research, and my books, see
- http://users.ece.utexas.edu/~valvano/
- */
 
 // hardware connections
 // **********ILI9341 TFT and SDC*******************
